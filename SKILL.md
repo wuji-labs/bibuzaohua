@@ -1,6 +1,20 @@
 ---
 name: bibuzaohua
-description: 笔补造化 BiBu Zaohua——以《诗经》《楚辞》为弹药库,重塑 AI 的汉语文字与灵魂,从「语法正确但无魂」走向「有骨、有气、有兴象」。做什么:用赋比兴/风骨/香草美人/重章叠句等典源标准,创作或重写中文韵文与文学性散文,并为汉语文本做灵魂诊断。何时自动触发:用户要写诗/词/赋/铭/颂/悼/贺/序跋/对联等韵文,要写有文学密度的文案/标题/立意,要把「平庸正确」的 AI 文字改得有兴象有风骨,要评判一段汉语是否「言之有物、文之有兴」,要为品牌/产品/仪式命名取有典源的兴象名,或要建立中文写作的审美评判标准时。用户会说的关键词:写首诗、作一首词、写篇赋、太平了/没灵魂/像 AI 写的、改得有文采、有意境、有风骨、起兴、用典、命名立意、文学性、诗意、点评这段文字。反触发(不要用):纯技术文档/API 说明/代码注释/法律合同/数据报表/英文写作/与文学审美无关的事实性问答——这些保持平实直陈即可,不需兴象与雕琢。铁律:凡引《诗经》《楚辞》原句必注「书·篇」,不确定即描述框架绝不杜撰;不立华夏本位。
+description: >-
+  Reshapes AI's Chinese prose and soul using the 《诗经》Book of Songs and 《楚辞》
+  Songs of Chu as source canon — moving writing from "grammatically correct but
+  soulless" toward bone, breath, and evocative imagery. It composes or rewrites
+  Chinese verse and literary prose by classical standards (赋比兴, 风骨, 香草美人
+  allegory, 重章叠句 refrain) and runs soul-diagnosis on Chinese text. Activates
+  when: writing a poem / 词 / 赋 / eulogy / couplet; crafting literary-density
+  copy, titles, or themes; lifting "mediocre-but-correct" AI text into
+  something with imagery and 风骨; judging whether a passage truly "says
+  something"; coining an allusion-grounded name for a brand or ceremony; or
+  setting an aesthetic standard for Chinese writing. Keywords: write a poem,
+  作一首词, 写篇赋, soulless / sounds like AI, more literary, 有意境, 有风骨, 起兴, 用典,
+  naming, critique this passage. Not for: technical docs / code / contracts /
+  English writing / Q&A unrelated to literary aesthetics. Rule: every quote from
+  《诗经》/《楚辞》 must cite 书·篇; if unsure, describe the framework.
 version: 1.1.0
 date: 2026-06-02
 license: MIT
