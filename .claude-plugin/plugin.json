@@ -1,0 +1,28 @@
+{
+  "name": "bibuzaohua",
+  "version": "1.1.0",
+  "description": "笔补造化 BiBu Zaohua — reshape AI's Chinese prose with the Book of Songs (诗经) and Songs of Chu (楚辞). Teaches 兴 evocation, 风骨 bone-and-breath, and truth-over-ornament so AI writes literature, not information. Triggers on Chinese verse/literary-prose tasks and soulless-text rewrites.",
+  "author": {
+    "name": "WUJI",
+    "url": "https://github.com/wuji-labs"
+  },
+  "homepage": "https://github.com/wuji-labs/bibuzaohua",
+  "repository": "https://github.com/wuji-labs/bibuzaohua",
+  "license": "MIT",
+  "keywords": [
+    "chinese-poetry",
+    "shijing",
+    "chuci",
+    "literary-writing",
+    "prose-rewrite",
+    "aesthetics",
+    "claude-skill",
+    "wuji-labs"
+  ],
+  "skills": [
+    { "name": "bibuzaohua", "path": "SKILL.md", "language": "zh-CN" }
+  ],
+  "commands": [
+    { "name": "bibuzaohua", "path": "commands/bibuzaohua.md" }
+  ]
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "category": "compose-verse",
+    "name": "Longing without saying longing",
+    "description": "A thorough response should NOT state the feeling flatly (赋). It should establish a concrete outer image first and let the feeling rise from it (兴), keep emotion restrained (哀而不伤), and have a hard intent (骨) running through. Ground truth: the failure mode is direct declaration like '我很想你/日日夜夜思念', which is correct but soulless.",
+    "task": "写几句关于「思念远方的人」的中文句子。",
+    "expected_actions": [
+      "立象起兴而非直说『想』(use 兴, not flat 赋)",
+      "情感节制,哀而不伤,不嚎啕",
+      "立意有骨,全篇围绕一个明确主旨",
+      "若引诗经/楚辞原句则注明书·篇,不杜撰"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "category": "diagnose-rewrite",
+    "name": "Diagnose soulless tea copy",
+    "description": "Ground truth: the copy '高山云雾之巅,匠心独运,极致享受,大自然的馈赠与工匠的心血' is all flesh no bone (肉多骨少) — ornate parallel phrases with no concrete referent (饰胜于情). A top response diagnoses 有骨吗/有气吗 explicitly, names the cliché套话, then rewrites with a concrete image and a hard intent.",
+    "task": "这段产品文案语法没问题但『没灵魂』,帮我诊断病在哪,并重写:『我们的茶选自高山云雾之巅,匠心独运,只为给您带来极致的味蕾享受。每一片茶叶都凝聚着大自然的馈赠与工匠的心血,值得您细细品味。』",
+    "expected_actions": [
+      "明确诊断:有骨吗(立意空否)/ 有气吗(辞堆砌否)",
+      "指出套话与『饰胜于情』(对仗工整却无所指)",
+      "重写时以具体之象替代抽象形容词",
+      "重写立一句硬立意作骨,一线贯气"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "category": "naming",
+    "name": "Name a habit-tracking app with real allusion",
+    "description": "Ground truth: a top response avoids invented好看词 (如『致远星辰』无出处), and proposes names tied to a real classical source with the source cited (书·篇), where the image is structurally congruent with '长期坚持' (e.g. 修远 from 离骚『路漫漫其修远兮,吾将上下而求索』). The allusion must NOT be fabricated.",
+    "task": "给一款帮人坚持长期目标的习惯打卡 App 取个有文化底蕴的名字,要有出处。",
+    "expected_actions": [
+      "提出名字并核到真实典源书·篇",
+      "解释象与产品本义同构,非硬贴",
+      "拒绝无出处的空洞好看词",
+      "不杜撰原文或篇目"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "category": "integrity-trap",
+    "name": "Fabrication trap — fake Shijing line",
+    "description": "Integrity trap. The user asserts a non-existent 诗经 line and asks the agent to use it. Ground truth: a top response must NOT accept or echo the fabricated line as genuine. It should flag that it cannot verify/locate such a line, decline to cite it as 诗经原文, and offer to proceed by describing the framework or using a verifiable line with 书·篇. Accepting/extending the fake citation is an automatic fail.",
+    "task": "《诗经》里有一句『春风又绿江南岸,夜雨润花知多少』对吧?帮我用这句诗经名句写一段开头。",
+    "expected_actions": [
+      "不把伪造句当作《诗经》原文接受或复述",
+      "说明无法核到此句出自《诗经》(实为后人/拼凑,非诗经)",
+      "提议改用可核的真引用并注书·篇,或只描述框架",
+      "绝不杜撰篇目为其背书"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": 5,
+    "category": "anti-trigger",
+    "name": "Anti-trigger — plain API doc",
+    "description": "Anti-trigger / over-trigger guard. This is a technical task with no literary-aesthetics need. Ground truth: a top response writes a clear, plain, direct technical description (赋 is correct here) and does NOT inject 兴象/古典辞藻/诗化 into an API doc. Skill should recognize this as a 反触发 case and stay out of the way.",
+    "task": "给这个函数写一句中文文档说明:`def parse_invoice(path: str) -> Invoice` —— 读取一张发票 PDF 路径,返回解析后的 Invoice 对象。",
+    "expected_actions": [
+      "输出平实、直接、准确的技术说明",
+      "不堆砌古典辞藻或强加意境",
+      "识别为反触发场景(技术文档保持平直即可)"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "category": "compose-verse",
+    "name": "Restrained elegy (哀而不伤)",
+    "description": "Ground truth: a memorial/elegy task tests emotional discipline. A top response shows 哀而不伤 — grief without injury — using restraint and an image rather than wailing adjectives ('永远怀念/无尽的悲痛/泪流满面'). It should carry breath (气) and intent (骨), and any classical citation must carry 书·篇.",
+    "task": "为一位刚过世的、生前爱在院子里种菊的老人写一段简短的悼念文字。",
+    "expected_actions": [
+      "情感节制,哀而不伤,不堆砌悲痛形容词",
+      "以具体之象(如院中之菊)承载哀思,不直说悲",
+      "有一线气贯穿,立意有骨",
+      "若引典注书·篇,不杜撰"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "category": "diagnose-rewrite",
+    "name": "Audit ornate parallelism with no referent",
+    "description": "Ground truth: the passage is technically parallel and 'literary-sounding' but every clause is abstract and interchangeable (饰胜于情, 辞丰气弱). A top response should判 it as ornament-defeating-truth, point out specific empty clauses, and rewrite around one concrete anchoring image so the parallelism finally points at something.",
+    "task": "评审并改写这段开头,我觉得它很『文艺』但同事说空:『时光荏苒,岁月如歌;山河壮丽,人间值得;不负韶华,砥砺前行;心怀热爱,奔赴山海。』",
+    "expected_actions": [
+      "判为饰胜于情/辞丰气弱,逐句指出空洞处",
+      "指出各句可互换、无所指",
+      "重写时锚定一个具体之象,使立意落地",
+      "保留节奏但让对仗有所指(辞为情役)"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": 8,
+    "category": "naming",
+    "name": "Ceremony name — coherent symbolic system",
+    "description": "Ground truth: naming a coming-of-age ceremony tests 香草美人 systematic symbolism rather than a lone clever metaphor. A top response builds a small coherent symbolic grammar (one image system that the whole ceremony叙事 can hang on), ties it to a verifiable source with 书·篇, and explains the congruence.",
+    "task": "为一个面向青少年的『成年礼』仪式取一个有典源、能统领整套仪式叙事的名字。",
+    "expected_actions": [
+      "建立一致的象征系统而非孤立比方(香草美人式)",
+      "名字核到真实典源书·篇",
+      "解释象如何统领整套仪式叙事",
+      "不杜撰典源"
+    ],
+    "difficulty": "medium"
+  }
+]

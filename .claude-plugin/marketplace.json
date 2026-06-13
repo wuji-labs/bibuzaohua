@@ -1,0 +1,20 @@
+{
+  "name": "bibuzaohua-skills",
+  "description": "笔补造化 BiBu Zaohua — gives AI's Chinese prose bone, breath, and image, drawn from the Book of Songs (诗经) and Songs of Chu (楚辞).",
+  "owner": {
+    "name": "WUJI",
+    "url": "https://github.com/wuji-labs"
+  },
+  "plugins": [
+    {
+      "name": "bibuzaohua",
+      "description": "笔补造化 — reshape AI's words and soul with 诗经/楚辞: 兴 evocation, 风骨 bone-and-breath, truth over ornament.",
+      "version": "1.1.0",
+      "source": "./",
+      "author": {
+        "name": "WUJI",
+        "url": "https://github.com/wuji-labs"
+      }
+    }
+  ]
+}

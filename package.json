@@ -1,0 +1,27 @@
+{
+  "name": "@labs-skills/bibuzaohua",
+  "version": "1.1.0",
+  "description": "笔补造化 BiBu Zaohua — reshape AI's words and soul with the Book of Songs (诗经) and Songs of Chu (楚辞): bone, breath, image, and truth over ornament.",
+  "license": "MIT",
+  "author": "WUJI (wuji-labs)",
+  "homepage": "https://github.com/wuji-labs/bibuzaohua",
+  "private": true,
+  "type": "module",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "README.zh-CN.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    ".claude-plugin/",
+    "commands/",
+    "examples/",
+    "reference/",
+    "platforms/",
+    "benchmark/"
+  ],
+  "scripts": {
+    "build": "echo no build",
+    "clean": "echo clean"
+  }
+}
