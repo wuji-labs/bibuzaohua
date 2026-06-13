@@ -1,5 +1,7 @@
 # 笔补造化 BiBu Zaohua — 给 AI 的汉语以骨、气、兴象
 
+**[🇨🇳 简体中文](README.zh-CN.md)** · **[🇺🇸 English](README.md)** · **[🇯🇵 日本語](README.ja.md)** · **[🇰🇷 한국어](README.ko.md)** · **[🇪🇸 Español](README.es.md)** · **[🇧🇷 Português](README.pt.md)** · **[🇫🇷 Français](README.fr.md)**
+
 > **笔补造化天无功** ——李贺《高轩过》。笔可补天工之未及,这是中国文人对文字最高的自许。
 
 **一句话:你的 AI 写的中文「语法正确但没灵魂」——本 skill 以《诗经》《楚辞》为弹药库,给它骨、气、兴象。**
