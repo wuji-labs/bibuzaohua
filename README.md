@@ -9,6 +9,11 @@
 
 **[🇨🇳 简体中文](README.zh-CN.md)** · **[🇺🇸 English](README.md)** · **[🇯🇵 日本語](README.ja.md)** · **[🇰🇷 한국어](README.ko.md)** · **[🇪🇸 Español](README.es.md)** · **[🇧🇷 Português](README.pt.md)** · **[🇫🇷 Français](README.fr.md)**
 
+<p align="center">
+  <img src="assets/wechat-personal.jpg" alt="Add WUJI on WeChat" width="200">
+</p>
+<p align="center">扫码添加作者微信 · Scan to add the author on WeChat</p>
+
 > 中文版 README:[README.zh-CN.md](README.zh-CN.md)
 
 这是华夏道脉献给世界开源社区的十件礼物之一(叩兩端·无极樞纽)。
@@ -181,7 +186,3 @@ See [examples/](examples/) for full input→output pairs.
 
 *笔补造化 BiBu Zaohua — by [WUJI](https://github.com/wuji-labs)*
 *The brush mends creation. Write with bone, breath, and image.*
-
-## 联系 · Contact
-扫码添加无极微信，交流合作 · Scan to add WUJI on WeChat
-<img src="assets/wechat-qr.png" width="200" alt="WUJI WeChat QR">
